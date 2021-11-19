@@ -5,21 +5,15 @@ Student: Will Lewthwaite
 Modified date: 19 November, 2021
 */
 
+@import './resets';
+@import './variables';
 
-    $primary-color:#272727;
-    $accent-color: #ff652f;
-    $text-color: #fff;
-    $font-weights: (
-        "regular": 400,
-        "medium": 500,
-        "bold": 700,
-    );
-
+    
 body {
     background: $primary-color;
     color: $text-color;
-    
 }
+
 .main{
     width: 80%;
     margin: 0 auto;
