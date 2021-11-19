@@ -1,6 +1,22 @@
+/*
+NIC DGL 203
+Assignment 4A-1
+Student: Will Lewthwaite
+Modified date: 19 November, 2021
+*/
 body {
   background: #272727;
   color: #fff;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main_paragraph {
   font-weight: 700;
+}
+.main .main_paragraph:hover {
+  color: pink;
 }
 /*# sourceMappingURL=main.css.map */

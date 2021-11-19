@@ -1,3 +1,10 @@
+/*
+NIC DGL 203
+Assignment 4A-1
+Student: Will Lewthwaite
+Modified date: 19 November, 2021
+*/
+
 
     $primary-color:#272727;
     $accent-color: #ff652f;
@@ -11,5 +18,16 @@
 body {
     background: $primary-color;
     color: $text-color;
-    font-weight: map-get($font-weights, bold);
+    
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+
+    #{&}_paragraph {
+        font-weight: map-get($font-weights, bold);
+        &:hover {
+            color: pink;
+        }
+    }
 }
