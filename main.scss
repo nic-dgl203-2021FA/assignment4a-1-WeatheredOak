@@ -38,8 +38,8 @@ body {
 }
 
 .main{
-    @include flexCenter(column);
-    width: 80%;
+    @include flexCenter(row);
+    width: 80% - 40%;
     margin: 0 auto;
 
     #{&}_paragraph1 {
